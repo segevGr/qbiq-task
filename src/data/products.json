@@ -128,5 +128,599 @@
     "category": "E-books",
     "thumbnailUrl": "https://picsum.photos/seed/prod-12/600/400",
     "reviews": [{ "id": 1, "author": "Gal", "content": "Actionable frameworks.", "rating": 4 }]
+  },
+  {
+    "id": 13,
+    "name": "UI Kit – Startup Essentials",
+    "price": 26.5,
+    "shortDescription": "Essential components for new projects.",
+    "longDescription": "Includes hero sections, signup forms, and pricing layouts for quick launches.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-13/600/400",
+    "reviews": [{ "id": 1, "author": "Omer", "content": "Very complete kit.", "rating": 5 }]
+  },
+  {
+    "id": 14,
+    "name": "Plugin: SEO Assistant",
+    "price": 21.0,
+    "shortDescription": "SEO insights for Vue apps.",
+    "longDescription": "Analyzes meta tags, sitemaps, and accessibility to improve rankings.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-14/600/400",
+    "reviews": [{ "id": 1, "author": "Nina", "content": "Helped boost my SEO score.", "rating": 5 }]
+  },
+  {
+    "id": 15,
+    "name": "Template: Portfolio Pro",
+    "price": 25.99,
+    "shortDescription": "Modern portfolio template for devs.",
+    "longDescription": "Responsive Vue-based layout with sections for projects, skills, and contact.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-15/600/400",
+    "reviews": [{ "id": 1, "author": "Raz", "content": "My clients loved it.", "rating": 4 }]
+  },
+  {
+    "id": 16,
+    "name": "Course: Tailwind Deep Dive",
+    "price": 37.0,
+    "shortDescription": "Advanced Tailwind CSS techniques.",
+    "longDescription": "Custom configs, design systems, and dynamic theming for pros.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-16/600/400",
+    "reviews": [{ "id": 1, "author": "Dana", "content": "Beautiful explanations.", "rating": 5 }]
+  },
+  {
+    "id": 17,
+    "name": "Icon Pack – Colorful Flat",
+    "price": 15.99,
+    "shortDescription": "600 colorful icons for apps and dashboards.",
+    "longDescription": "Perfect for modern SaaS and mobile apps.",
+    "category": "Icons",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-17/600/400",
+    "reviews": [
+      { "id": 1, "author": "Bar", "content": "Perfect match for my design.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "E-Book: Clean Code in JS",
+    "price": 20.0,
+    "shortDescription": "Improve readability and structure.",
+    "longDescription": "Refactoring tips, naming conventions, and design patterns for JavaScript.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-18/600/400",
+    "reviews": [
+      { "id": 1, "author": "Idan", "content": "Applies instantly to projects.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Course: Git for Teams",
+    "price": 28.0,
+    "shortDescription": "Learn branching, PRs, and CI.",
+    "longDescription": "Covers advanced workflows and merge conflict resolution for teams.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-19/600/400",
+    "reviews": [{ "id": 1, "author": "Ron", "content": "Exactly what I needed.", "rating": 5 }]
+  },
+  {
+    "id": 20,
+    "name": "Template: Blogify",
+    "price": 23.5,
+    "shortDescription": "Vue-powered blog template.",
+    "longDescription": "Markdown support, comments, and tag filters included.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-20/600/400",
+    "reviews": [{ "id": 1, "author": "Ella", "content": "Setup was super easy.", "rating": 4 }]
+  },
+  {
+    "id": 21,
+    "name": "Software: Markdown Editor Pro",
+    "price": 32.0,
+    "shortDescription": "WYSIWYG + Markdown hybrid editor.",
+    "longDescription": "Supports live preview, export to PDF/HTML, and dark mode.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-21/600/400",
+    "reviews": [{ "id": 1, "author": "Amit", "content": "Smooth and lightweight.", "rating": 5 }]
+  },
+  {
+    "id": 22,
+    "name": "E-Book: Testing Vue Apps",
+    "price": 16.99,
+    "shortDescription": "Unit, integration, and E2E testing.",
+    "longDescription": "Step-by-step guide with Jest, Vitest, and Cypress.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-22/600/400",
+    "reviews": [
+      { "id": 1, "author": "Tal", "content": "Boosted my testing confidence.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "UI Kit – Dashboard Elements",
+    "price": 30.0,
+    "shortDescription": "Charts, cards, and tables kit.",
+    "longDescription": "Compatible with Tailwind and Vue 3.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-23/600/400",
+    "reviews": [{ "id": 1, "author": "Rina", "content": "Loved the data widgets.", "rating": 5 }]
+  },
+  {
+    "id": 24,
+    "name": "Template: Product Landing",
+    "price": 27.99,
+    "shortDescription": "High-converting landing template.",
+    "longDescription": "Optimized for marketing SaaS and apps.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-24/600/400",
+    "reviews": [{ "id": 1, "author": "Erez", "content": "Clean, fast, beautiful.", "rating": 4 }]
+  },
+  {
+    "id": 25,
+    "name": "Icon Pack – Outline Essentials",
+    "price": 13.99,
+    "shortDescription": "Minimal outline SVG icons.",
+    "longDescription": "400 outline icons designed for dashboards.",
+    "category": "Icons",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-25/600/400",
+    "reviews": [{ "id": 1, "author": "Gadi", "content": "Exactly my style.", "rating": 5 }]
+  },
+  {
+    "id": 26,
+    "name": "Course: Performance Optimization",
+    "price": 42.5,
+    "shortDescription": "Speed up your frontend.",
+    "longDescription": "Covers caching, lazy loading, and bundle splitting.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-26/600/400",
+    "reviews": [{ "id": 1, "author": "Ofir", "content": "Site is much faster now.", "rating": 5 }]
+  },
+  {
+    "id": 27,
+    "name": "Software: Task Manager Pro",
+    "price": 35.0,
+    "shortDescription": "Organize your work visually.",
+    "longDescription": "Kanban boards, due dates, and notifications.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-27/600/400",
+    "reviews": [{ "id": 1, "author": "Ruth", "content": "Very intuitive UX.", "rating": 5 }]
+  },
+  {
+    "id": 28,
+    "name": "Template: Ecommerce Base",
+    "price": 40.0,
+    "shortDescription": "Starter eCommerce template.",
+    "longDescription": "Includes cart, checkout, and product grid.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-28/600/400",
+    "reviews": [{ "id": 1, "author": "Shir", "content": "Worked perfectly.", "rating": 5 }]
+  },
+  {
+    "id": 29,
+    "name": "UI Kit – Form Elements",
+    "price": 18.0,
+    "shortDescription": "Form fields, inputs, and modals.",
+    "longDescription": "Reusable components for fast UI development.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-29/600/400",
+    "reviews": [{ "id": 1, "author": "Yair", "content": "Time saver kit.", "rating": 5 }]
+  },
+  {
+    "id": 30,
+    "name": "E-Book: Building APIs",
+    "price": 19.99,
+    "shortDescription": "Design RESTful APIs the right way.",
+    "longDescription": "Best practices with Express, Node, and OpenAPI.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-30/600/400",
+    "reviews": [{ "id": 1, "author": "Tal", "content": "Super practical examples.", "rating": 5 }]
+  },
+  {
+    "id": 31,
+    "name": "Course: Fullstack with Vue & Node",
+    "price": 59.0,
+    "shortDescription": "Complete frontend + backend integration.",
+    "longDescription": "Covers authentication, APIs, and deployment.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-31/600/400",
+    "reviews": [{ "id": 1, "author": "Liran", "content": "Worth every dollar.", "rating": 5 }]
+  },
+  {
+    "id": 32,
+    "name": "Software: JSON Formatter",
+    "price": 14.0,
+    "shortDescription": "Prettify and validate JSON data.",
+    "longDescription": "Supports syntax highlighting and schemas.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-32/600/400",
+    "reviews": [{ "id": 1, "author": "Eli", "content": "Super handy tool.", "rating": 5 }]
+  },
+  {
+    "id": 33,
+    "name": "UI Kit – Dark Dashboard",
+    "price": 29.5,
+    "shortDescription": "Dark-themed dashboard UI kit.",
+    "longDescription": "Perfect for admin interfaces and analytics.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-33/600/400",
+    "reviews": [{ "id": 1, "author": "Naama", "content": "Beautiful components.", "rating": 5 }]
+  },
+  {
+    "id": 34,
+    "name": "Template: Minimal Blog",
+    "price": 19.0,
+    "shortDescription": "Clean and typography-focused blog.",
+    "longDescription": "Responsive design with markdown content.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-34/600/400",
+    "reviews": [{ "id": 1, "author": "Oded", "content": "Exactly my vibe.", "rating": 5 }]
+  },
+  {
+    "id": 35,
+    "name": "E-Book: Accessibility in Practice",
+    "price": 22.0,
+    "shortDescription": "Make your sites accessible.",
+    "longDescription": "Covers ARIA, screen readers, and color contrast.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-35/600/400",
+    "reviews": [{ "id": 1, "author": "Meital", "content": "Eye-opening read.", "rating": 5 }]
+  },
+  {
+    "id": 36,
+    "name": "Course: Advanced CSS",
+    "price": 31.0,
+    "shortDescription": "Grid, Flexbox, and animations.",
+    "longDescription": "Master layout systems and responsive design.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-36/600/400",
+    "reviews": [{ "id": 1, "author": "Nadav", "content": "Well structured course.", "rating": 5 }]
+  },
+  {
+    "id": 37,
+    "name": "Software: SVG Compressor",
+    "price": 11.5,
+    "shortDescription": "Reduce SVG file size easily.",
+    "longDescription": "Optimizes paths and removes unused attributes.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-37/600/400",
+    "reviews": [{ "id": 1, "author": "Alon", "content": "Fast and reliable.", "rating": 5 }]
+  },
+  {
+    "id": 38,
+    "name": "Template: Agency Pro",
+    "price": 35.5,
+    "shortDescription": "Agency website starter template.",
+    "longDescription": "Includes service sections, portfolio, and contact form.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-38/600/400",
+    "reviews": [{ "id": 1, "author": "Lia", "content": "Looks professional.", "rating": 5 }]
+  },
+  {
+    "id": 39,
+    "name": "UI Kit – Marketing Elements",
+    "price": 25.0,
+    "shortDescription": "Components for landing pages.",
+    "longDescription": "Hero banners, testimonials, and pricing cards.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-39/600/400",
+    "reviews": [{ "id": 1, "author": "Uri", "content": "Clean components.", "rating": 5 }]
+  },
+  {
+    "id": 40,
+    "name": "E-Book: Mastering GitHub Actions",
+    "price": 18.0,
+    "shortDescription": "Automate your workflows.",
+    "longDescription": "CI/CD setup for Node, Vue, and static sites.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-40/600/400",
+    "reviews": [
+      { "id": 1, "author": "Hila", "content": "Really helped me automate CI.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Software: REST Client",
+    "price": 28.5,
+    "shortDescription": "Test APIs visually.",
+    "longDescription": "Lightweight alternative to Postman.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-41/600/400",
+    "reviews": [{ "id": 1, "author": "Erez", "content": "Use it daily.", "rating": 5 }]
+  },
+  {
+    "id": 42,
+    "name": "Template: Documentation Site",
+    "price": 33.0,
+    "shortDescription": "Docs site built with VuePress.",
+    "longDescription": "Automatic sidebar, search, and markdown.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-42/600/400",
+    "reviews": [{ "id": 1, "author": "Noam", "content": "Setup in minutes.", "rating": 5 }]
+  },
+  {
+    "id": 43,
+    "name": "UI Kit – Dashboard Pro",
+    "price": 39.0,
+    "shortDescription": "Premium admin UI kit.",
+    "longDescription": "Dark and light themes, reusable widgets.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-43/600/400",
+    "reviews": [{ "id": 1, "author": "Adi", "content": "Amazing visuals.", "rating": 5 }]
+  },
+  {
+    "id": 44,
+    "name": "E-Book: Progressive Web Apps",
+    "price": 21.0,
+    "shortDescription": "Build fast offline-ready apps.",
+    "longDescription": "Covers caching, manifests, and service workers.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-44/600/400",
+    "reviews": [{ "id": 1, "author": "Moran", "content": "Learned so much!", "rating": 5 }]
+  },
+  {
+    "id": 45,
+    "name": "Course: UX for Developers",
+    "price": 38.0,
+    "shortDescription": "Understand user experience basics.",
+    "longDescription": "Covers usability, accessibility, and design patterns.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-45/600/400",
+    "reviews": [{ "id": 1, "author": "Yael", "content": "Super relevant course.", "rating": 5 }]
+  },
+  {
+    "id": 46,
+    "name": "Software: Color Palette Generator",
+    "price": 12.5,
+    "shortDescription": "Generate color palettes from images.",
+    "longDescription": "Exports palettes for Figma, CSS, and JSON.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-46/600/400",
+    "reviews": [{ "id": 1, "author": "Barak", "content": "Perfect for designers.", "rating": 5 }]
+  },
+  {
+    "id": 47,
+    "name": "Template: App Landing",
+    "price": 26.0,
+    "shortDescription": "Landing page for mobile apps.",
+    "longDescription": "Sections for features, screenshots, and pricing.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-47/600/400",
+    "reviews": [{ "id": 1, "author": "Dana", "content": "Launched my app fast.", "rating": 5 }]
+  },
+  {
+    "id": 48,
+    "name": "UI Kit – Mobile Components",
+    "price": 27.5,
+    "shortDescription": "Mobile-first UI kit.",
+    "longDescription": "Includes navigation, tabs, and modals optimized for mobile.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-48/600/400",
+    "reviews": [{ "id": 1, "author": "Tom", "content": "Perfect for PWA design.", "rating": 5 }]
+  },
+  {
+    "id": 49,
+    "name": "E-Book: Security Best Practices",
+    "price": 20.99,
+    "shortDescription": "Protect your apps.",
+    "longDescription": "Covers XSS, CSRF, encryption, and secure headers.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-49/600/400",
+    "reviews": [{ "id": 1, "author": "Asaf", "content": "Clear and detailed.", "rating": 5 }]
+  },
+  {
+    "id": 50,
+    "name": "Course: DevOps for Frontend",
+    "price": 48.0,
+    "shortDescription": "CI/CD and deployment basics.",
+    "longDescription": "Covers Docker, GitHub Actions, and Netlify flows.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-50/600/400",
+    "reviews": [
+      { "id": 1, "author": "Ronen", "content": "Now I automate everything.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Software: JSON to CSV Converter",
+    "price": 14.99,
+    "shortDescription": "Convert between JSON and CSV easily.",
+    "longDescription": "Supports batch conversions and schema mapping.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-51/600/400",
+    "reviews": [{ "id": 1, "author": "Eden", "content": "Saves tons of time.", "rating": 5 }]
+  },
+  {
+    "id": 52,
+    "name": "Template: Course Platform",
+    "price": 45.0,
+    "shortDescription": "Online learning platform starter.",
+    "longDescription": "Includes course pages, checkout, and admin dashboard.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-52/600/400",
+    "reviews": [{ "id": 1, "author": "Or", "content": "Ready to scale.", "rating": 5 }]
+  },
+  {
+    "id": 53,
+    "name": "UI Kit – eCommerce Elements",
+    "price": 32.0,
+    "shortDescription": "Cards, filters, and product grids.",
+    "longDescription": "Optimized for eCommerce sites.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-53/600/400",
+    "reviews": [{ "id": 1, "author": "Tomer", "content": "Looks amazing.", "rating": 5 }]
+  },
+  {
+    "id": 54,
+    "name": "E-Book: Modern CSS Layouts",
+    "price": 17.99,
+    "shortDescription": "Master CSS Grid and Flexbox.",
+    "longDescription": "Advanced examples with responsive design patterns.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-54/600/400",
+    "reviews": [{ "id": 1, "author": "Adi", "content": "Helpful for real projects.", "rating": 5 }]
+  },
+  {
+    "id": 55,
+    "name": "Course: API Integration",
+    "price": 35.5,
+    "shortDescription": "Integrate APIs effectively.",
+    "longDescription": "Fetch, caching, and authentication patterns.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-55/600/400",
+    "reviews": [{ "id": 1, "author": "Shay", "content": "Clear and useful.", "rating": 5 }]
+  },
+  {
+    "id": 56,
+    "name": "Software: SVG Animator",
+    "price": 29.0,
+    "shortDescription": "Animate SVG files easily.",
+    "longDescription": "Supports timeline editing and path morphing.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-56/600/400",
+    "reviews": [{ "id": 1, "author": "Noga", "content": "Fun to use.", "rating": 5 }]
+  },
+  {
+    "id": 57,
+    "name": "Template: Resume Builder",
+    "price": 22.0,
+    "shortDescription": "Interactive resume template.",
+    "longDescription": "Editable in-browser, exports to PDF.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-57/600/400",
+    "reviews": [{ "id": 1, "author": "Eyal", "content": "Looks professional.", "rating": 5 }]
+  },
+  {
+    "id": 58,
+    "name": "UI Kit – Notification Elements",
+    "price": 15.5,
+    "shortDescription": "Alerts, toasts, and modals.",
+    "longDescription": "Customizable colors and transitions.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-58/600/400",
+    "reviews": [{ "id": 1, "author": "Lea", "content": "Super flexible kit.", "rating": 5 }]
+  },
+  {
+    "id": 59,
+    "name": "E-Book: Frontend Deployment",
+    "price": 19.5,
+    "shortDescription": "Deploy apps with confidence.",
+    "longDescription": "Guides for Netlify, Vercel, and Docker.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-59/600/400",
+    "reviews": [
+      { "id": 1, "author": "Oren", "content": "Perfect step-by-step guide.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Course: Testing Automation",
+    "price": 43.0,
+    "shortDescription": "Automate UI testing.",
+    "longDescription": "Hands-on Cypress and Playwright training.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-60/600/400",
+    "reviews": [{ "id": 1, "author": "Hadar", "content": "Exactly what I needed.", "rating": 5 }]
+  },
+  {
+    "id": 61,
+    "name": "Software: CSS Gradient Maker",
+    "price": 13.0,
+    "shortDescription": "Build and export gradients.",
+    "longDescription": "Live preview and export to CSS variables.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-61/600/400",
+    "reviews": [{ "id": 1, "author": "Gil", "content": "Cool UI!", "rating": 5 }]
+  },
+  {
+    "id": 62,
+    "name": "Template: Restaurant Landing",
+    "price": 27.0,
+    "shortDescription": "Beautiful restaurant website template.",
+    "longDescription": "Includes menu, booking, and contact pages.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-62/600/400",
+    "reviews": [{ "id": 1, "author": "Lia", "content": "Loved the layout.", "rating": 5 }]
+  },
+  {
+    "id": 63,
+    "name": "UI Kit – Dashboard Widgets",
+    "price": 33.0,
+    "shortDescription": "Widgets and charts for admin UIs.",
+    "longDescription": "Compatible with Vue and Tailwind.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-63/600/400",
+    "reviews": [{ "id": 1, "author": "Nadav", "content": "Perfectly structured.", "rating": 5 }]
+  },
+  {
+    "id": 64,
+    "name": "E-Book: Clean Architecture",
+    "price": 25.0,
+    "shortDescription": "Organize large-scale apps.",
+    "longDescription": "Explains modularization, services, and domains.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-64/600/400",
+    "reviews": [{ "id": 1, "author": "Yael", "content": "Changed how I build apps.", "rating": 5 }]
+  },
+  {
+    "id": 65,
+    "name": "Course: Advanced Animations",
+    "price": 41.0,
+    "shortDescription": "Master Vue transitions.",
+    "longDescription": "Covers GSAP, motion APIs, and complex timelines.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-65/600/400",
+    "reviews": [{ "id": 1, "author": "Guy", "content": "Mind-blowing lessons.", "rating": 5 }]
+  },
+  {
+    "id": 66,
+    "name": "Software: JSON Schema Builder",
+    "price": 28.0,
+    "shortDescription": "Create and validate schemas visually.",
+    "longDescription": "Drag-and-drop schema editor with live validation.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-66/600/400",
+    "reviews": [{ "id": 1, "author": "Rina", "content": "Perfect for backend devs.", "rating": 5 }]
+  },
+  {
+    "id": 67,
+    "name": "Template: Startup One-Page",
+    "price": 24.0,
+    "shortDescription": "Minimal one-page startup template.",
+    "longDescription": "Focuses on speed and conversions.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-67/600/400",
+    "reviews": [{ "id": 1, "author": "Itai", "content": "Very polished.", "rating": 5 }]
+  },
+  {
+    "id": 68,
+    "name": "UI Kit – Analytics Charts",
+    "price": 31.5,
+    "shortDescription": "Custom chart components.",
+    "longDescription": "Includes bar, line, and donut charts.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-68/600/400",
+    "reviews": [{ "id": 1, "author": "Noa", "content": "Beautiful charts.", "rating": 5 }]
+  },
+  {
+    "id": 69,
+    "name": "E-Book: Docker for Developers",
+    "price": 23.0,
+    "shortDescription": "Get started with Docker.",
+    "longDescription": "Learn containers, images, and deployments.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-69/600/400",
+    "reviews": [{ "id": 1, "author": "Ron", "content": "Clear and concise.", "rating": 5 }]
+  },
+  {
+    "id": 70,
+    "name": "Course: Vue + Firebase",
+    "price": 46.0,
+    "shortDescription": "Build full apps with Firebase backend.",
+    "longDescription": "Authentication, Firestore, and hosting explained.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-70/600/400",
+    "reviews": [
+      { "id": 1, "author": "Shira", "content": "Loved the integration part.", "rating": 5 }
+    ]
   }
 ]

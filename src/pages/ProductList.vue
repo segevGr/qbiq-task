@@ -1,8 +1,26 @@
 <script setup lang="ts">
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { useProductList } from '@/composables/useProductList'
 import ProductCard from '@/components/ProductCard.vue'
 
-const { search, filtered } = useProductList()
+const { search, filtered, loadMore, canLoadMore } = useProductList()
+const sentinel = ref<HTMLElement | null>(null)
+let observer: IntersectionObserver | null = null
+
+onMounted(() => {
+  if (!sentinel.value) return
+  observer = new IntersectionObserver((entries) => {
+    const entry = entries[0]
+    if (entry && entry.isIntersecting && canLoadMore.value) {
+      loadMore()
+    }
+  })
+  observer.observe(sentinel.value)
+})
+
+onBeforeUnmount(() => {
+  observer?.disconnect()
+})
 </script>
 
 <template>
@@ -27,5 +45,7 @@ const { search, filtered } = useProductList()
     <div v-else class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <ProductCard v-for="p in filtered" :key="p.id" :product="p" />
     </div>
+
+    <div ref="sentinel" class="h-10"></div>
   </section>
 </template>
