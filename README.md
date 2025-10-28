@@ -26,13 +26,15 @@ Users can browse digital products, search by name, view product details with rev
 
 ## ✨ Features
 
-- Product listing with live search filter
-- Detailed product view with category and reviews
-- Fully responsive design
-- Dark / Light mode toggle
-- 404 page
-- Type-safe implementation using interfaces
-- Automated build & deploy pipeline via GitHub Actions
+- **Product listing** with live **search filter**
+- **Category-based filtering** for easy product browsing
+- **Lazy loading** for faster performance and optimized **image loading**
+- **Detailed product view** with category and **user reviews**
+- **Fully responsive design** for all screen sizes
+- **Dark / Light mode toggle** for better accessibility
+- **Custom 404 page** with friendly navigation
+- **Type-safe implementation** using **TypeScript interfaces**
+- **Automated build & deploy pipeline** via **GitHub Actions**
 
 ---
 
