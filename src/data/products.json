@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "Vue Mastery Course",
+    "price": 49.99,
+    "shortDescription": "Complete Vue 3 & Composition API course.",
+    "longDescription": "Learn Vue 3 from zero to hero with practical projects and the Composition API.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-1/600/400",
+    "reviews": [
+      { "id": 1, "author": "Alice", "content": "Super clear explanations.", "rating": 5 },
+      { "id": 2, "author": "Ben", "content": "Great pacing and examples.", "rating": 4 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "TypeScript for Frontend",
+    "price": 39.0,
+    "shortDescription": "TS essentials for modern apps.",
+    "longDescription": "Covers typing patterns, generics, utility types, and TS with Vue & React.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-2/600/400",
+    "reviews": [
+      { "id": 1, "author": "Dana", "content": "Finally understood generics.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "UI Kit – Clean Wireframes",
+    "price": 24.0,
+    "shortDescription": "Figma wireframe kit for startups.",
+    "longDescription": "100+ screens, grids, and components to speed up early-stage product design.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-3/600/400",
+    "reviews": [{ "id": 1, "author": "Yossi", "content": "Saved me days of work.", "rating": 5 }]
+  },
+  {
+    "id": 4,
+    "name": "Icon Pack – Minimal",
+    "price": 14.99,
+    "shortDescription": "400 SVG icons, pixel-perfect.",
+    "longDescription": "Lightweight, customizable SVG icons with consistent stroke and sizes.",
+    "category": "Icons",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-4/600/400",
+    "reviews": [{ "id": 1, "author": "Noa", "content": "Clean and consistent.", "rating": 4 }]
+  },
+  {
+    "id": 5,
+    "name": "SaaS Landing Template",
+    "price": 29.0,
+    "shortDescription": "Responsive landing page template.",
+    "longDescription": "Modern sections, pricing table, testimonials, and blog layout.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-5/600/400",
+    "reviews": [
+      { "id": 1, "author": "Itay", "content": "Deployed in a day.", "rating": 5 },
+      { "id": 2, "author": "Maya", "content": "Good code structure.", "rating": 4 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "License – Code Formatter Pro",
+    "price": 19.99,
+    "shortDescription": "CLI/GUI formatter for JS/TS/Vue.",
+    "longDescription": "Automates code style with plugins, pre-commit hooks, and project presets.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-6/600/400",
+    "reviews": [{ "id": 1, "author": "Ariel", "content": "CI integration is easy.", "rating": 5 }]
+  },
+  {
+    "id": 7,
+    "name": "E-Book: Advanced Vue Patterns",
+    "price": 17.5,
+    "shortDescription": "Real-world patterns & anti-patterns.",
+    "longDescription": "Covers state, composition, performance, and testing best practices.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-7/600/400",
+    "reviews": [{ "id": 1, "author": "Lior", "content": "Practical and concise.", "rating": 4 }]
+  },
+  {
+    "id": 8,
+    "name": "Analytics Dashboard Template",
+    "price": 34.0,
+    "shortDescription": "Charts, filters, and data tables.",
+    "longDescription": "Built with clean components and accessible interactions.",
+    "category": "Templates",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-8/600/400",
+    "reviews": [
+      { "id": 1, "author": "Shani", "content": "Great base for admin apps.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Tailwind Components Bundle",
+    "price": 22.0,
+    "shortDescription": "120 prebuilt UI blocks.",
+    "longDescription": "Headers, footers, cards, modals, tables, and forms with clean markup.",
+    "category": "UI Kits",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-9/600/400",
+    "reviews": [{ "id": 1, "author": "Eden", "content": "Plug and play.", "rating": 5 }]
+  },
+  {
+    "id": 10,
+    "name": "Course: State Management",
+    "price": 44.0,
+    "shortDescription": "Pinia, patterns, and testing.",
+    "longDescription": "From basics to scalable architecture with async flows and modular stores.",
+    "category": "Courses",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-10/600/400",
+    "reviews": [{ "id": 1, "author": "Tom", "content": "Cleared my mental model.", "rating": 5 }]
+  },
+  {
+    "id": 11,
+    "name": "Plugin: Image Optimizer",
+    "price": 15.0,
+    "shortDescription": "Build-time image optimization.",
+    "longDescription": "Compresses, resizes, and generates responsive images automatically.",
+    "category": "Software",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-11/600/400",
+    "reviews": [{ "id": 1, "author": "Roi", "content": "Cut bundle size a lot.", "rating": 5 }]
+  },
+  {
+    "id": 12,
+    "name": "E-Book: Design Systems",
+    "price": 18.99,
+    "shortDescription": "Design tokens & governance.",
+    "longDescription": "Systematic approach to scalable UI with tokens, theming, and docs.",
+    "category": "E-books",
+    "thumbnailUrl": "https://picsum.photos/seed/prod-12/600/400",
+    "reviews": [{ "id": 1, "author": "Gal", "content": "Actionable frameworks.", "rating": 4 }]
+  }
+]
