@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    if: github.event.pull_request.merged == true
+    # if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
@@ -37,7 +37,7 @@ jobs:
       - name: Run ESLint
         run: npm ci && npm run lint
 
-      #   Unit Tests (placeholder)
+      #   Unit Tests
       # - name: Run unit tests
       #   run: npm run test:unit
 
@@ -60,7 +60,7 @@ jobs:
           docker cp temp:/export/dist ./dist
           docker rm temp
 
-      # 🧩 E2E Tests (placeholder)
+      #   E2E Tests
       # - name: Run E2E tests
       #   run: npm run test:e2e
 
