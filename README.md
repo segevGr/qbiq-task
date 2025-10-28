@@ -1,48 +1,46 @@
-# qbiq
+# 🛒 Qbiq Task – Mini E-Commerce App
 
-This template should help get you started developing with Vue 3 in Vite.
+**Author:** Segev Grotas  
+**Live Demo:** [https://segevgr.github.io/qbiq-task/](https://segevgr.github.io/qbiq-task/)
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📋 Overview
 
-## Recommended Browser Setup
+A minimal Vue 3 + TypeScript e-commerce app built as part of the Qbiq home assignment.  
+Users can browse digital products, search by name, view product details with reviews, and toggle between light and dark mode.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Type Support for `.vue` Imports in TS
+## ⚙️ Tech Stack
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- **Vue 3** (Composition API)
+- **TypeScript**
+- **Pinia** for state management
+- **Tailwind CSS** for responsive UI
+- **Vite** for fast development and build
+- **GitHub Actions** CI/CD → GitHub Pages deployment
+- **Docker (multi-stage)** for optimized builds
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## ✨ Features
 
-## Project Setup
+- Product listing with live search filter
+- Detailed product view with category and reviews
+- Fully responsive design
+- Dark / Light mode toggle
+- 404 page
+- Type-safe implementation using interfaces
+- Automated build & deploy pipeline via GitHub Actions
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## 🧱 CI/CD
 
-```sh
-npm run dev
-```
+- **Trigger:** Runs on approved pull requests merged into `main`
+- **Pipeline:** Lint → Docker build (with Buildx cache) → Deploy to GitHub Pages
 
-### Type-Check, Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+© 2025 Segev Grotas
