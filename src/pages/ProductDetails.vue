@@ -1,21 +1,8 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
-import { useProductsStore } from '@/stores/products'
+import { useProductDetails } from '@/composables/useProductDetails'
 import ReviewItem from '@/components/ReviewItem.vue'
 
-const route = useRoute()
-const router = useRouter()
-const store = useProductsStore()
-
-const product = computed(() => {
-  const id = Number(route.params.id)
-  return store.getById(id)
-})
-
-function goBack() {
-  router.push({ name: 'products' })
-}
+const { product, goBack } = useProductDetails()
 </script>
 
 <template>
@@ -29,7 +16,7 @@ function goBack() {
       ← Back to Products
     </button>
 
-    <!-- במקרה שלא נמצא מוצר -->
+    <!-- In case the product was not found -->
     <div
       v-if="!product"
       class="rounded-lg border border-gray-200 dark:border-gray-700 p-6 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200"
@@ -38,7 +25,7 @@ function goBack() {
       <p class="text-gray-600 dark:text-gray-400">The product ID in the URL does not exist.</p>
     </div>
 
-    <!-- עמוד מוצר -->
+    <!-- Product page -->
     <div
       v-else
       class="rounded-lg border border-gray-200 dark:border-gray-700 p-6 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 shadow-sm dark:shadow-lg transition-colors duration-300"
@@ -53,6 +40,7 @@ function goBack() {
             class="max-w-full max-h-72 object-contain rounded-md"
           />
         </div>
+
         <div class="flex-1">
           <h1 class="text-3xl font-bold mb-2">{{ product.name }}</h1>
 
@@ -77,7 +65,7 @@ function goBack() {
         </div>
       </div>
 
-      <!-- ביקורות -->
+      <!-- Reviews section -->
       <section class="mt-10">
         <h2 class="text-2xl font-semibold mb-4">Reviews</h2>
 

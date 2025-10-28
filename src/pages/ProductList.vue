@@ -1,16 +1,8 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
-import { useProductsStore } from '@/stores/products'
+import { useProductList } from '@/composables/useProductList'
 import ProductCard from '@/components/ProductCard.vue'
 
-const store = useProductsStore()
-const search = ref('')
-
-const filtered = computed(() => {
-  const q = search.value.trim().toLowerCase()
-  if (!q) return store.products
-  return store.products.filter((p) => p.name.toLowerCase().includes(q))
-})
+const { search, filtered } = useProductList()
 </script>
 
 <template>
