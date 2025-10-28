@@ -13,7 +13,7 @@ function goToDetails() {
 <template>
   <article
     @click="goToDetails"
-    class="cursor-pointer rounded-xl border bg-white hover:shadow-md transition p-4 flex flex-col"
+    class="cursor-pointer rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-md dark:hover:shadow-lg transition p-4 flex flex-col hover:-translate-y-1 transform duration-200"
   >
     <img
       :src="product.thumbnailUrl"
@@ -21,10 +21,14 @@ function goToDetails() {
       class="w-full h-40 object-cover rounded-md mb-3"
       loading="lazy"
     />
-    <h3 class="font-semibold text-lg mb-1 line-clamp-1">{{ product.name }}</h3>
-    <p class="text-sm text-gray-500 mb-2 line-clamp-2">{{ product.shortDescription }}</p>
-    <div class="mt-auto font-bold text-emerald-700">${{ product.price.toFixed(2) }}</div>
+    <h3 class="font-semibold text-lg mb-1 text-gray-800 dark:text-gray-100">
+      {{ product.name }}
+    </h3>
+    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2 line-clamp-2">
+      {{ product.shortDescription }}
+    </p>
+    <div class="mt-auto font-bold text-emerald-700 dark:text-emerald-400">
+      ${{ product.price.toFixed(2) }}
+    </div>
   </article>
 </template>
-
-<style scoped></style>
