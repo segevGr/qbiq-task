@@ -1,15 +1,25 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
-import { useProductsStore } from '@/stores/products'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { useProductList } from '@/composables/useProductList'
 import ProductCard from '@/components/ProductCard.vue'
 
-const store = useProductsStore()
-const search = ref('')
+const { search, filtered, loadMore, canLoadMore } = useProductList()
+const sentinel = ref<HTMLElement | null>(null)
+let observer: IntersectionObserver | null = null
 
-const filtered = computed(() => {
-  const q = search.value.trim().toLowerCase()
-  if (!q) return store.products
-  return store.products.filter((p) => p.name.toLowerCase().includes(q))
+onMounted(() => {
+  if (!sentinel.value) return
+  observer = new IntersectionObserver((entries) => {
+    const entry = entries[0]
+    if (entry && entry.isIntersecting && canLoadMore.value) {
+      loadMore()
+    }
+  })
+  observer.observe(sentinel.value)
+})
+
+onBeforeUnmount(() => {
+  observer?.disconnect()
 })
 </script>
 
@@ -35,5 +45,7 @@ const filtered = computed(() => {
     <div v-else class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <ProductCard v-for="p in filtered" :key="p.id" :product="p" />
     </div>
+
+    <div ref="sentinel" class="h-10"></div>
   </section>
 </template>
