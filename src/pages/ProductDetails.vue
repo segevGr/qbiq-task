@@ -44,11 +44,15 @@ function goBack() {
       class="rounded-lg border border-gray-200 dark:border-gray-700 p-6 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 shadow-sm dark:shadow-lg transition-colors duration-300"
     >
       <div class="flex flex-col md:flex-row gap-6">
-        <img
-          :src="product.thumbnailUrl"
-          :alt="product.name"
-          class="w-full md:w-80 h-80 object-cover rounded-md shadow-md dark:shadow-gray-900"
-        />
+        <div
+          class="flex justify-center items-center bg-gray-100 dark:bg-gray-800 rounded-md p-2 shadow-inner"
+        >
+          <img
+            :src="product.thumbnailUrl"
+            :alt="product.name"
+            class="max-w-full max-h-72 object-contain rounded-md"
+          />
+        </div>
         <div class="flex-1">
           <h1 class="text-3xl font-bold mb-2">{{ product.name }}</h1>
 
