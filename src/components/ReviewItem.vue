@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Review } from '@/types/product'
 
-const props = defineProps<{
+defineProps<{
   review: Review
 }>()
 </script>
